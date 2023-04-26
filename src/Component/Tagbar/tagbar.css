@@ -1,0 +1,11 @@
+.tags{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.tags .tag{
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px;
+}

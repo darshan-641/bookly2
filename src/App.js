@@ -1,10 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Home from './Component/Home/home';
+import Navbar from './Component/Navbar/navbar';
+import Tagbar from './Component/Tagbar/tagbar';
 
 function App() {
   return (
     <>
-    Brother
+    <Navbar/>
+    <Tagbar/>
+    <Home/>
     </>
   );
 }
